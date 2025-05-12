@@ -21,11 +21,11 @@ npm start
 
 ## 📸 Screenshots
   
-![](screenshot/1.png)
-![](screenshot/2.png)
-![](screenshot/3.png)
-![](screenshot/4.png)
-![](screenshot/5.png)
+![](frontend/screenshot/1.png)
+![](frontend/screenshot/2.png)
+![](frontend/screenshot/3.png)
+![](frontend/screenshot/4.png)
+![](frontend/screenshot/5.png)
 
 *(Add your own screenshots in the `/screenshots` folder)*
 
