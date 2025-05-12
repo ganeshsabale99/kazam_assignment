@@ -29,6 +29,8 @@ const TaskList = ({ tasks, isLoading }: TaskListProps) => {
     );
   }
 
+  console.log('Tasks:', tasks);
+
   return (
     <div>
       <h2 className="font-bold border-b pb-3">Notes</h2>
@@ -40,7 +42,8 @@ const TaskList = ({ tasks, isLoading }: TaskListProps) => {
               key={key}
                className="font-semibold break-words border-b py-2 w-full"
             >
-              <span className="text-gray-400">{index + 1}.</span> {task.text}
+              <span className="text-gray-400">{index + 1}.</span> 
+              {task.text}
             </div>
           );
         })}
