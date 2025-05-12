@@ -9,7 +9,7 @@ import {
   getTasksFromMongoDB 
 } from './mongoService';
 
-const MAX_REDIS_TASKS = 5;
+const MAX_REDIS_TASKS = 50;
 
 export const addTask = async (task: string, firstName: string): Promise<string> => {
   try {
